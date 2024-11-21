@@ -7,7 +7,7 @@ public class AppLigaV2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+//---------
 		//--------------------- JUGADORES -----------------------------------------------------		
 		Jugador j1 = new Jugador();		
 		j1.setNombre("Johan Cruiff");
