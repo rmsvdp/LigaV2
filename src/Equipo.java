@@ -6,7 +6,7 @@ public class Equipo {
 	private String nombre;     			
 	private String estadio; 
 	public Jugador[] 	Jugadores; 	
-	private Entrenador[] Entrenadores ;
+	public Entrenador[] Entrenadores ;
 	/*
 	public Jugador[] 	Jugadores 		= new Jugador [TOT_JUGADORES];
 	public Entrenador[] Entrenadores 	= new Entrenador [TOT_TECNICOS];
