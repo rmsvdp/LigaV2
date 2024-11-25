@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Equipo {
 
@@ -42,6 +43,17 @@ public class Equipo {
 	public void setJugadores(Jugador[] jugadores) {		Jugadores = jugadores;	}
 	public Entrenador[] getEntrenadores() {		return Entrenadores;	}
 	public void setEntrenadores(Entrenador[] entrenadores) {		Entrenadores = entrenadores;}
+
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Equipo [TOT_JUGADORES=" + TOT_JUGADORES + ", TOT_TECNICOS=" + TOT_TECNICOS + ", nombre=" + nombre
+				+ ", estadio=" + estadio + ", Jugadores=" + Arrays.toString(Jugadores) + ", Entrenadores="
+				+ Arrays.toString(Entrenadores) + "]";
+	}
 
 	public void asignaEntrenador(int posicion,Entrenador e) {		
 		this.Entrenadores[posicion]=e;

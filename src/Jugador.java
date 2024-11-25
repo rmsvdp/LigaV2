@@ -35,6 +35,12 @@ public class Jugador {
 	public void setGolAVG(int golAVG)				{	this.golAVG = golAVG;}
 	public boolean isActivo()						{	return this.activo;	}
 	public void setActivo(boolean activo)			{	this.activo=activo;	}
+
+	@Override
+	public String toString() {
+		return "Jugador [nombre=" + nombre + ", posicion=" + posicion + ", numero=" + numero + ", edad=" + edad
+				+ ", golAVG=" + golAVG + ", activo=" + activo + "]";
+	}
 	
 	
 	
